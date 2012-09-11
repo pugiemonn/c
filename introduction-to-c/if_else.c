@@ -8,5 +8,8 @@ int main()
     scanf("%c", &ch);
 
     if(ch == 'X') printf("X感じてみろ\n");
+    else if (ch == 'G') printf("Gとかしねばいいのに\n");
     else printf("パスワードが違います\n");
+
+    return 0;
 }
