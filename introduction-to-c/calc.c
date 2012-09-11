@@ -2,11 +2,11 @@
 
 int main()
 {
-    int var = 190;
+    int var = 10;
     int ans;
     
-    ans = var + 5 * 5;
-    printf("変数ansは%d\n", ans);
+    ans = (var + 5) * 5;
+    printf("変数ans = %d\n", ans);
     
     return 0;
     
